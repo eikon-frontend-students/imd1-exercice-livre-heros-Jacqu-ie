@@ -1,8 +1,98 @@
 body {
-  background-color: #1a1a1a;
+  background-color: #1f102b;
   color: white;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
 }
-
+.card {
+  border-radius: 55px;
+  background: #f0d8dc;
+  height: 749px;
+  width: 600px;
+  padding-top: 48px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.img {
+  background-image: url(background.png);
+  background-size: contain;
+  filter: opacity();
+  width: 491px;
+  height: 327px;
+  border-radius: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+h1 {
+  color: #552e32;
+  text-align: center;
+  -webkit-text-stroke-width: 0.52px;
+  -webkit-text-stroke-color: #552e32;
+  font-family: "Patrick Hand";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96%; /* 46.08px */
+}
+p {
+  color: #552e32;
+  text-align: center;
+  font-family: "Patrick Hand";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96%; /* 34.56px */
+  letter-spacing: -0.396px;
+  display: flex;
+  justify-content: center;
+  width: 491px;
+  height: 315px;
+  flex-direction: column;
+  margin: auto;
+}
+h2 {
+  color: #552e32;
+  text-align: center;
+  font-family: "Patrick Hand";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96%; /* 23.04px */
+  letter-spacing: -0.264px;
+  text-align: right;
+  margin-right: 54px;
+}
+h3 {
+  border-radius: 55px;
+  background: #f0d8dc;
+  width: 415px;
+  height: 118px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+h3 p {
+  color: #552e32;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 33px */
+  letter-spacing: -0.242px;
+  display: flex;
+  width: 413px;
+  height: 111px;
+  flex-direction: column;
+  justify-content: center;
+}
+h3:hover {
+  background-color: #e5c3c9;
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
 a {
-  color: white;
+  text-decoration: none;
 }
